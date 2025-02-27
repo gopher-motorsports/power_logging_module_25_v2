@@ -68,7 +68,7 @@ UART_HandleTypeDef huart1;
 
 osThreadId service_canHandle;
 osThreadId store_dataHandle;
-osThreadId heartbeatHandle;
+osThreadId plm_heartbeatHandle;
 osThreadId simulate_dataHandle;
 osThreadId collect_dataHandle;
 osThreadId monitor_currentHandle;
@@ -180,9 +180,9 @@ int main(void)
   osThreadDef(store_data, plm_task_store_data, osPriorityNormal, 0, 1024);
   store_dataHandle = osThreadCreate(osThread(store_data), NULL);
 
-  /* definition and creation of heartbeat */
-  osThreadDef(heartbeat, plm_task_heartbeat, osPriorityLow, 0, 512);
-  heartbeatHandle = osThreadCreate(osThread(heartbeat), NULL);
+  /* definition and creation of plm_heartbeat */
+  osThreadDef(plm_heartbeat, plm_task_heartbeat, osPriorityLow, 0, 512);
+  plm_heartbeatHandle = osThreadCreate(osThread(plm_heartbeat), NULL);
 
   /* definition and creation of simulate_data */
   osThreadDef(simulate_data, plm_task_simulate_data, osPriorityLow, 0, 1024);
