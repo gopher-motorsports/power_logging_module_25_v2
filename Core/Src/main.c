@@ -68,10 +68,11 @@ UART_HandleTypeDef huart1;
 
 osThreadId service_canHandle;
 osThreadId store_dataHandle;
-osThreadId heartbeatHandle;
+osThreadId plm_heartbeatHandle;
 osThreadId simulate_dataHandle;
 osThreadId collect_dataHandle;
 osThreadId monitor_currentHandle;
+osThreadId tm_heartbeatHandle;
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -98,6 +99,7 @@ void plm_task_heartbeat(void const * argument);
 void plm_task_simulate_data(void const * argument);
 void plm_task_collect_data(void const * argument);
 void plm_task_monitor_current(void const * argument);
+void tm_task_heartbeat(void const * argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -180,9 +182,9 @@ int main(void)
   osThreadDef(store_data, plm_task_store_data, osPriorityNormal, 0, 1024);
   store_dataHandle = osThreadCreate(osThread(store_data), NULL);
 
-  /* definition and creation of heartbeat */
-  osThreadDef(heartbeat, plm_task_heartbeat, osPriorityLow, 0, 512);
-  heartbeatHandle = osThreadCreate(osThread(heartbeat), NULL);
+  /* definition and creation of plm_heartbeat */
+  osThreadDef(plm_heartbeat, plm_task_heartbeat, osPriorityLow, 0, 512);
+  plm_heartbeatHandle = osThreadCreate(osThread(plm_heartbeat), NULL);
 
   /* definition and creation of simulate_data */
   osThreadDef(simulate_data, plm_task_simulate_data, osPriorityLow, 0, 1024);
@@ -195,6 +197,10 @@ int main(void)
   /* definition and creation of monitor_current */
   osThreadDef(monitor_current, plm_task_monitor_current, osPriorityNormal, 0, 1024);
   monitor_currentHandle = osThreadCreate(osThread(monitor_current), NULL);
+
+  /* definition and creation of tm_heartbeat */
+  osThreadDef(tm_heartbeat, tm_task_heartbeat, osPriorityLow, 0, 512);
+  tm_heartbeatHandle = osThreadCreate(osThread(tm_heartbeat), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -1073,6 +1079,24 @@ void plm_task_monitor_current(void const * argument)
     osDelay(1);
   }
   /* USER CODE END plm_task_monitor_current */
+}
+
+/* USER CODE BEGIN Header_tm_task_heartbeat */
+/**
+* @brief Function implementing the tm_heartbeat thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_tm_task_heartbeat */
+void tm_task_heartbeat(void const * argument)
+{
+  /* USER CODE BEGIN tm_task_heartbeat */
+  /* Infinite loop */
+  for(;;)
+  {
+    osDelay(1);
+  }
+  /* USER CODE END tm_task_heartbeat */
 }
 
 /**
