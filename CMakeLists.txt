@@ -48,6 +48,13 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
+    ../../Core/Src/plm_data.c
+    ../../Core/Src/plm_error.c
+    ../../Core/Src/plm_GPIO_Extension.c
+    ../../Core/Src/plm_misc.c
+    ../../Core/Src/plm_sd.c
+    ../../Core/Src/plm.c
+
 )
 
 # Add include paths

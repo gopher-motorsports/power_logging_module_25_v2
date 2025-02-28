@@ -23,7 +23,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "plm.h"
+#include "plm_error.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -986,7 +987,7 @@ void plm_task_service_can(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    plm_service_can();
   }
   /* USER CODE END 5 */
 }
@@ -1004,7 +1005,7 @@ void plm_task_store_data(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    plm_store_data();
   }
   /* USER CODE END plm_task_store_data */
 }
@@ -1022,7 +1023,7 @@ void plm_task_heartbeat(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    plm_heartbeat();
   }
   /* USER CODE END plm_task_heartbeat */
 }
@@ -1040,7 +1041,7 @@ void plm_task_simulate_data(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    plm_simulate_data();
   }
   /* USER CODE END plm_task_simulate_data */
 }
@@ -1058,7 +1059,7 @@ void plm_task_collect_data(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    plm_collect_data();
   }
   /* USER CODE END plm_task_collect_data */
 }
@@ -1076,7 +1077,7 @@ void plm_task_monitor_current(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    plm_monitor_current();
   }
   /* USER CODE END plm_task_monitor_current */
 }
@@ -1094,7 +1095,7 @@ void tm_task_heartbeat(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    tm_heartbeat();
   }
   /* USER CODE END tm_task_heartbeat */
 }
