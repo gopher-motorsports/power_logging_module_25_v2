@@ -1,0 +1,184 @@
+module_name: "power_logging_module_25"
+use_hw_timer: false 
+
+buckets:
+       current_channels:
+        # NOTE: frequency will be converted to an integer number of ms for a delay
+        frequency_hz: 10
+        parameters:
+            # these must directly be a variable defined in GopherCAN
+            vbatChan0Current_A:
+                ADC: ADC3_IN0
+                sensor: vbat_channel_current
+                samples_buffered: 10
+            vbatChan1Current_A:
+                ADC: ADC3_IN2
+                sensor: vbat_channel_current
+                samples_buffered: 10
+            vbatChan2Current_A:
+                ADC: ADC3_IN3
+                sensor: vbat_channel_current
+                samples_buffered: 10
+            vbatChan3Current_A:
+                ADC: ADC2_IN4
+                sensor: vbat_channel_current
+                samples_buffered: 10
+            vbatChan4Current_A:
+                ADC: ADC2_IN5
+                sensor: vbat_channel_current
+                samples_buffered: 10
+            vbatChan5Current_A:
+                ADC: ADC2_IN6
+                sensor: vbat_channel_current
+                samples_buffered: 10
+            vbatChan6Current_A:
+                ADC: ADC2_IN7
+                sensor: vbat_channel_current
+                samples_buffered: 10
+            fiveVChan0Current_A:
+                ADC: ADC2_IN8
+                sensor: five_volt_channel_current
+                samples_buffered: 10
+            fiveVChan1Current_A:
+                ADC: ADC3_IN10
+                sensor: five_volt_channel_current
+                samples_buffered: 10
+            fiveVChan2Current_A:
+                ADC: ADC3_IN11
+                sensor: five_volt_channel_current
+                samples_buffered: 10
+            fiveVChan3Current_A:
+                ADC: ADC3_IN12
+                sensor: five_volt_channel_current
+                samples_buffered: 10
+            plmVbatVoltage_V:
+                ADC: ADC2_IN13
+                sensor: vbat_voltage_reading
+                samples_buffered: 10
+            plm5VVoltage_V:
+                ADC: ADC2_IN14
+                sensor: five_volt_voltage_reading
+                samples_buffered: 10
+            Overcurrent_Event:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_0_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_1_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_2_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_3_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_4_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_5_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_6_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Five_Volt_0_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Five_Volt_1_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Five_Volt_2_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Five_Volt_3_Overcurrent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_0_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_1_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_2_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_3_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_4_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_5_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Twelve_Volt_6_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Five_Volt_0_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Five_Volt_1_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Five_Volt_2_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            Five_Volt_3_Overcurrent_Count:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            PLM_Temp_degrees:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            PLM_Humidity_percent:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            PLM_Micro_Temp:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+          #These Shutdown Circuit paramaters need to be defined in gophercan
+            PLM_SDC_1:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            PLM_SDC_2:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            PLM_SDC_3:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+            PLM_SDC_4:
+                ADC: NON_ADC
+                sensor: NON_ADC
+                samples_buffered: 10
+
+ 

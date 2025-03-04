@@ -916,8 +916,8 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : SCD_MCU_1_Pin SDC_MCU_2_Pin SDC_MCU_3_Pin SDC_MCU_4_Pin */
-  GPIO_InitStruct.Pin = SCD_MCU_1_Pin|SDC_MCU_2_Pin|SDC_MCU_3_Pin|SDC_MCU_4_Pin;
+  /*Configure GPIO pins : SDC_MCU_1_Pin SDC_MCU_2_Pin SDC_MCU_3_Pin SDC_MCU_4_Pin */
+  GPIO_InitStruct.Pin = SDC_MCU_1_Pin|SDC_MCU_2_Pin|SDC_MCU_3_Pin|SDC_MCU_4_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);

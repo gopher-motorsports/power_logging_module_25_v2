@@ -97,8 +97,8 @@ void Error_Handler(void);
 #define ADC_5V_0_GPIO_Port GPIOB
 #define USB_RESET_Pin GPIO_PIN_7
 #define USB_RESET_GPIO_Port GPIOE
-#define SCD_MCU_1_Pin GPIO_PIN_8
-#define SCD_MCU_1_GPIO_Port GPIOE
+#define SDC_MCU_1_Pin GPIO_PIN_8
+#define SDC_MCU_1_GPIO_Port GPIOE
 #define SDC_MCU_2_Pin GPIO_PIN_9
 #define SDC_MCU_2_GPIO_Port GPIOE
 #define SDC_MCU_3_Pin GPIO_PIN_10
