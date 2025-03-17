@@ -177,6 +177,150 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/plm.obj: Core/Src/plm.c.obj
+.PHONY : Core/Src/plm.obj
+
+# target to build an object file
+Core/Src/plm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm.c.obj
+.PHONY : Core/Src/plm.c.obj
+
+Core/Src/plm.i: Core/Src/plm.c.i
+.PHONY : Core/Src/plm.i
+
+# target to preprocess a source file
+Core/Src/plm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm.c.i
+.PHONY : Core/Src/plm.c.i
+
+Core/Src/plm.s: Core/Src/plm.c.s
+.PHONY : Core/Src/plm.s
+
+# target to generate assembly for a file
+Core/Src/plm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm.c.s
+.PHONY : Core/Src/plm.c.s
+
+Core/Src/plm_GPIO_Extension.obj: Core/Src/plm_GPIO_Extension.c.obj
+.PHONY : Core/Src/plm_GPIO_Extension.obj
+
+# target to build an object file
+Core/Src/plm_GPIO_Extension.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_GPIO_Extension.c.obj
+.PHONY : Core/Src/plm_GPIO_Extension.c.obj
+
+Core/Src/plm_GPIO_Extension.i: Core/Src/plm_GPIO_Extension.c.i
+.PHONY : Core/Src/plm_GPIO_Extension.i
+
+# target to preprocess a source file
+Core/Src/plm_GPIO_Extension.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_GPIO_Extension.c.i
+.PHONY : Core/Src/plm_GPIO_Extension.c.i
+
+Core/Src/plm_GPIO_Extension.s: Core/Src/plm_GPIO_Extension.c.s
+.PHONY : Core/Src/plm_GPIO_Extension.s
+
+# target to generate assembly for a file
+Core/Src/plm_GPIO_Extension.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_GPIO_Extension.c.s
+.PHONY : Core/Src/plm_GPIO_Extension.c.s
+
+Core/Src/plm_data.obj: Core/Src/plm_data.c.obj
+.PHONY : Core/Src/plm_data.obj
+
+# target to build an object file
+Core/Src/plm_data.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_data.c.obj
+.PHONY : Core/Src/plm_data.c.obj
+
+Core/Src/plm_data.i: Core/Src/plm_data.c.i
+.PHONY : Core/Src/plm_data.i
+
+# target to preprocess a source file
+Core/Src/plm_data.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_data.c.i
+.PHONY : Core/Src/plm_data.c.i
+
+Core/Src/plm_data.s: Core/Src/plm_data.c.s
+.PHONY : Core/Src/plm_data.s
+
+# target to generate assembly for a file
+Core/Src/plm_data.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_data.c.s
+.PHONY : Core/Src/plm_data.c.s
+
+Core/Src/plm_error.obj: Core/Src/plm_error.c.obj
+.PHONY : Core/Src/plm_error.obj
+
+# target to build an object file
+Core/Src/plm_error.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_error.c.obj
+.PHONY : Core/Src/plm_error.c.obj
+
+Core/Src/plm_error.i: Core/Src/plm_error.c.i
+.PHONY : Core/Src/plm_error.i
+
+# target to preprocess a source file
+Core/Src/plm_error.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_error.c.i
+.PHONY : Core/Src/plm_error.c.i
+
+Core/Src/plm_error.s: Core/Src/plm_error.c.s
+.PHONY : Core/Src/plm_error.s
+
+# target to generate assembly for a file
+Core/Src/plm_error.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_error.c.s
+.PHONY : Core/Src/plm_error.c.s
+
+Core/Src/plm_misc.obj: Core/Src/plm_misc.c.obj
+.PHONY : Core/Src/plm_misc.obj
+
+# target to build an object file
+Core/Src/plm_misc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_misc.c.obj
+.PHONY : Core/Src/plm_misc.c.obj
+
+Core/Src/plm_misc.i: Core/Src/plm_misc.c.i
+.PHONY : Core/Src/plm_misc.i
+
+# target to preprocess a source file
+Core/Src/plm_misc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_misc.c.i
+.PHONY : Core/Src/plm_misc.c.i
+
+Core/Src/plm_misc.s: Core/Src/plm_misc.c.s
+.PHONY : Core/Src/plm_misc.s
+
+# target to generate assembly for a file
+Core/Src/plm_misc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_misc.c.s
+.PHONY : Core/Src/plm_misc.c.s
+
+Core/Src/plm_sd.obj: Core/Src/plm_sd.c.obj
+.PHONY : Core/Src/plm_sd.obj
+
+# target to build an object file
+Core/Src/plm_sd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_sd.c.obj
+.PHONY : Core/Src/plm_sd.c.obj
+
+Core/Src/plm_sd.i: Core/Src/plm_sd.c.i
+.PHONY : Core/Src/plm_sd.i
+
+# target to preprocess a source file
+Core/Src/plm_sd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_sd.c.i
+.PHONY : Core/Src/plm_sd.c.i
+
+Core/Src/plm_sd.s: Core/Src/plm_sd.c.s
+.PHONY : Core/Src/plm_sd.s
+
+# target to generate assembly for a file
+Core/Src/plm_sd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_sd.c.s
+.PHONY : Core/Src/plm_sd.c.s
+
 Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f4xx_hal_msp.obj
 
@@ -1424,6 +1568,24 @@ help:
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
+	@echo "... Core/Src/plm.obj"
+	@echo "... Core/Src/plm.i"
+	@echo "... Core/Src/plm.s"
+	@echo "... Core/Src/plm_GPIO_Extension.obj"
+	@echo "... Core/Src/plm_GPIO_Extension.i"
+	@echo "... Core/Src/plm_GPIO_Extension.s"
+	@echo "... Core/Src/plm_data.obj"
+	@echo "... Core/Src/plm_data.i"
+	@echo "... Core/Src/plm_data.s"
+	@echo "... Core/Src/plm_error.obj"
+	@echo "... Core/Src/plm_error.i"
+	@echo "... Core/Src/plm_error.s"
+	@echo "... Core/Src/plm_misc.obj"
+	@echo "... Core/Src/plm_misc.i"
+	@echo "... Core/Src/plm_misc.s"
+	@echo "... Core/Src/plm_sd.obj"
+	@echo "... Core/Src/plm_sd.i"
+	@echo "... Core/Src/plm_sd.s"
 	@echo "... Core/Src/stm32f4xx_hal_msp.obj"
 	@echo "... Core/Src/stm32f4xx_hal_msp.i"
 	@echo "... Core/Src/stm32f4xx_hal_msp.s"
