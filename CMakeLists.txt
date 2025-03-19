@@ -19,7 +19,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 # Set the project name
-set(CMAKE_PROJECT_NAME Power_Logging_Module_25)
+set(CMAKE_PROJECT_NAME power_logging_module_25_v2)
 
 # Include toolchain file
 include("cmake/gcc-arm-none-eabi.cmake")

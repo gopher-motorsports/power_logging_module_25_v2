@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Power_Logging_Module_25
+# Target rules for targets named power_logging_module_25_v2
 
 # Build rule for target.
-Power_Logging_Module_25: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Power_Logging_Module_25
-.PHONY : Power_Logging_Module_25
+power_logging_module_25_v2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 power_logging_module_25_v2
+.PHONY : power_logging_module_25_v2
 
 # fast build rule for target.
-Power_Logging_Module_25/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/build
-.PHONY : Power_Logging_Module_25/fast
+power_logging_module_25_v2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/build
+.PHONY : power_logging_module_25_v2/fast
 
 Core/Src/freertos.obj: Core/Src/freertos.c.obj
 .PHONY : Core/Src/freertos.obj
 
 # target to build an object file
 Core/Src/freertos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/freertos.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/freertos.c.obj
 .PHONY : Core/Src/freertos.c.obj
 
 Core/Src/freertos.i: Core/Src/freertos.c.i
@@ -142,7 +142,7 @@ Core/Src/freertos.i: Core/Src/freertos.c.i
 
 # target to preprocess a source file
 Core/Src/freertos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/freertos.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/freertos.c.i
 .PHONY : Core/Src/freertos.c.i
 
 Core/Src/freertos.s: Core/Src/freertos.c.s
@@ -150,7 +150,7 @@ Core/Src/freertos.s: Core/Src/freertos.c.s
 
 # target to generate assembly for a file
 Core/Src/freertos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/freertos.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/freertos.c.s
 .PHONY : Core/Src/freertos.c.s
 
 Core/Src/main.obj: Core/Src/main.c.obj
@@ -158,7 +158,7 @@ Core/Src/main.obj: Core/Src/main.c.obj
 
 # target to build an object file
 Core/Src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/main.c.obj
 .PHONY : Core/Src/main.c.obj
 
 Core/Src/main.i: Core/Src/main.c.i
@@ -166,7 +166,7 @@ Core/Src/main.i: Core/Src/main.c.i
 
 # target to preprocess a source file
 Core/Src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/main.c.i
 .PHONY : Core/Src/main.c.i
 
 Core/Src/main.s: Core/Src/main.c.s
@@ -174,7 +174,7 @@ Core/Src/main.s: Core/Src/main.c.s
 
 # target to generate assembly for a file
 Core/Src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
 Core/Src/plm.obj: Core/Src/plm.c.obj
@@ -182,7 +182,7 @@ Core/Src/plm.obj: Core/Src/plm.c.obj
 
 # target to build an object file
 Core/Src/plm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm.c.obj
 .PHONY : Core/Src/plm.c.obj
 
 Core/Src/plm.i: Core/Src/plm.c.i
@@ -190,7 +190,7 @@ Core/Src/plm.i: Core/Src/plm.c.i
 
 # target to preprocess a source file
 Core/Src/plm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm.c.i
 .PHONY : Core/Src/plm.c.i
 
 Core/Src/plm.s: Core/Src/plm.c.s
@@ -198,7 +198,7 @@ Core/Src/plm.s: Core/Src/plm.c.s
 
 # target to generate assembly for a file
 Core/Src/plm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm.c.s
 .PHONY : Core/Src/plm.c.s
 
 Core/Src/plm_GPIO_Extension.obj: Core/Src/plm_GPIO_Extension.c.obj
@@ -206,7 +206,7 @@ Core/Src/plm_GPIO_Extension.obj: Core/Src/plm_GPIO_Extension.c.obj
 
 # target to build an object file
 Core/Src/plm_GPIO_Extension.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_GPIO_Extension.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_GPIO_Extension.c.obj
 .PHONY : Core/Src/plm_GPIO_Extension.c.obj
 
 Core/Src/plm_GPIO_Extension.i: Core/Src/plm_GPIO_Extension.c.i
@@ -214,7 +214,7 @@ Core/Src/plm_GPIO_Extension.i: Core/Src/plm_GPIO_Extension.c.i
 
 # target to preprocess a source file
 Core/Src/plm_GPIO_Extension.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_GPIO_Extension.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_GPIO_Extension.c.i
 .PHONY : Core/Src/plm_GPIO_Extension.c.i
 
 Core/Src/plm_GPIO_Extension.s: Core/Src/plm_GPIO_Extension.c.s
@@ -222,7 +222,7 @@ Core/Src/plm_GPIO_Extension.s: Core/Src/plm_GPIO_Extension.c.s
 
 # target to generate assembly for a file
 Core/Src/plm_GPIO_Extension.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_GPIO_Extension.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_GPIO_Extension.c.s
 .PHONY : Core/Src/plm_GPIO_Extension.c.s
 
 Core/Src/plm_data.obj: Core/Src/plm_data.c.obj
@@ -230,7 +230,7 @@ Core/Src/plm_data.obj: Core/Src/plm_data.c.obj
 
 # target to build an object file
 Core/Src/plm_data.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_data.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_data.c.obj
 .PHONY : Core/Src/plm_data.c.obj
 
 Core/Src/plm_data.i: Core/Src/plm_data.c.i
@@ -238,7 +238,7 @@ Core/Src/plm_data.i: Core/Src/plm_data.c.i
 
 # target to preprocess a source file
 Core/Src/plm_data.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_data.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_data.c.i
 .PHONY : Core/Src/plm_data.c.i
 
 Core/Src/plm_data.s: Core/Src/plm_data.c.s
@@ -246,7 +246,7 @@ Core/Src/plm_data.s: Core/Src/plm_data.c.s
 
 # target to generate assembly for a file
 Core/Src/plm_data.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_data.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_data.c.s
 .PHONY : Core/Src/plm_data.c.s
 
 Core/Src/plm_error.obj: Core/Src/plm_error.c.obj
@@ -254,7 +254,7 @@ Core/Src/plm_error.obj: Core/Src/plm_error.c.obj
 
 # target to build an object file
 Core/Src/plm_error.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_error.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_error.c.obj
 .PHONY : Core/Src/plm_error.c.obj
 
 Core/Src/plm_error.i: Core/Src/plm_error.c.i
@@ -262,7 +262,7 @@ Core/Src/plm_error.i: Core/Src/plm_error.c.i
 
 # target to preprocess a source file
 Core/Src/plm_error.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_error.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_error.c.i
 .PHONY : Core/Src/plm_error.c.i
 
 Core/Src/plm_error.s: Core/Src/plm_error.c.s
@@ -270,7 +270,7 @@ Core/Src/plm_error.s: Core/Src/plm_error.c.s
 
 # target to generate assembly for a file
 Core/Src/plm_error.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_error.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_error.c.s
 .PHONY : Core/Src/plm_error.c.s
 
 Core/Src/plm_misc.obj: Core/Src/plm_misc.c.obj
@@ -278,7 +278,7 @@ Core/Src/plm_misc.obj: Core/Src/plm_misc.c.obj
 
 # target to build an object file
 Core/Src/plm_misc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_misc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_misc.c.obj
 .PHONY : Core/Src/plm_misc.c.obj
 
 Core/Src/plm_misc.i: Core/Src/plm_misc.c.i
@@ -286,7 +286,7 @@ Core/Src/plm_misc.i: Core/Src/plm_misc.c.i
 
 # target to preprocess a source file
 Core/Src/plm_misc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_misc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_misc.c.i
 .PHONY : Core/Src/plm_misc.c.i
 
 Core/Src/plm_misc.s: Core/Src/plm_misc.c.s
@@ -294,7 +294,7 @@ Core/Src/plm_misc.s: Core/Src/plm_misc.c.s
 
 # target to generate assembly for a file
 Core/Src/plm_misc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_misc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_misc.c.s
 .PHONY : Core/Src/plm_misc.c.s
 
 Core/Src/plm_sd.obj: Core/Src/plm_sd.c.obj
@@ -302,7 +302,7 @@ Core/Src/plm_sd.obj: Core/Src/plm_sd.c.obj
 
 # target to build an object file
 Core/Src/plm_sd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_sd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_sd.c.obj
 .PHONY : Core/Src/plm_sd.c.obj
 
 Core/Src/plm_sd.i: Core/Src/plm_sd.c.i
@@ -310,7 +310,7 @@ Core/Src/plm_sd.i: Core/Src/plm_sd.c.i
 
 # target to preprocess a source file
 Core/Src/plm_sd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_sd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_sd.c.i
 .PHONY : Core/Src/plm_sd.c.i
 
 Core/Src/plm_sd.s: Core/Src/plm_sd.c.s
@@ -318,7 +318,7 @@ Core/Src/plm_sd.s: Core/Src/plm_sd.c.s
 
 # target to generate assembly for a file
 Core/Src/plm_sd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/plm_sd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/plm_sd.c.s
 .PHONY : Core/Src/plm_sd.c.s
 
 Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
@@ -326,7 +326,7 @@ Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
 
 # target to build an object file
 Core/Src/stm32f4xx_hal_msp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/stm32f4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f4xx_hal_msp.c.obj
 
 Core/Src/stm32f4xx_hal_msp.i: Core/Src/stm32f4xx_hal_msp.c.i
@@ -334,7 +334,7 @@ Core/Src/stm32f4xx_hal_msp.i: Core/Src/stm32f4xx_hal_msp.c.i
 
 # target to preprocess a source file
 Core/Src/stm32f4xx_hal_msp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/stm32f4xx_hal_msp.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/stm32f4xx_hal_msp.c.i
 .PHONY : Core/Src/stm32f4xx_hal_msp.c.i
 
 Core/Src/stm32f4xx_hal_msp.s: Core/Src/stm32f4xx_hal_msp.c.s
@@ -342,7 +342,7 @@ Core/Src/stm32f4xx_hal_msp.s: Core/Src/stm32f4xx_hal_msp.c.s
 
 # target to generate assembly for a file
 Core/Src/stm32f4xx_hal_msp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/stm32f4xx_hal_msp.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/stm32f4xx_hal_msp.c.s
 .PHONY : Core/Src/stm32f4xx_hal_msp.c.s
 
 Core/Src/stm32f4xx_hal_timebase_tim.obj: Core/Src/stm32f4xx_hal_timebase_tim.c.obj
@@ -350,7 +350,7 @@ Core/Src/stm32f4xx_hal_timebase_tim.obj: Core/Src/stm32f4xx_hal_timebase_tim.c.o
 
 # target to build an object file
 Core/Src/stm32f4xx_hal_timebase_tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
 .PHONY : Core/Src/stm32f4xx_hal_timebase_tim.c.obj
 
 Core/Src/stm32f4xx_hal_timebase_tim.i: Core/Src/stm32f4xx_hal_timebase_tim.c.i
@@ -358,7 +358,7 @@ Core/Src/stm32f4xx_hal_timebase_tim.i: Core/Src/stm32f4xx_hal_timebase_tim.c.i
 
 # target to preprocess a source file
 Core/Src/stm32f4xx_hal_timebase_tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i
 .PHONY : Core/Src/stm32f4xx_hal_timebase_tim.c.i
 
 Core/Src/stm32f4xx_hal_timebase_tim.s: Core/Src/stm32f4xx_hal_timebase_tim.c.s
@@ -366,7 +366,7 @@ Core/Src/stm32f4xx_hal_timebase_tim.s: Core/Src/stm32f4xx_hal_timebase_tim.c.s
 
 # target to generate assembly for a file
 Core/Src/stm32f4xx_hal_timebase_tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s
 .PHONY : Core/Src/stm32f4xx_hal_timebase_tim.c.s
 
 Core/Src/stm32f4xx_it.obj: Core/Src/stm32f4xx_it.c.obj
@@ -374,7 +374,7 @@ Core/Src/stm32f4xx_it.obj: Core/Src/stm32f4xx_it.c.obj
 
 # target to build an object file
 Core/Src/stm32f4xx_it.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/stm32f4xx_it.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/stm32f4xx_it.c.obj
 .PHONY : Core/Src/stm32f4xx_it.c.obj
 
 Core/Src/stm32f4xx_it.i: Core/Src/stm32f4xx_it.c.i
@@ -382,7 +382,7 @@ Core/Src/stm32f4xx_it.i: Core/Src/stm32f4xx_it.c.i
 
 # target to preprocess a source file
 Core/Src/stm32f4xx_it.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/stm32f4xx_it.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/stm32f4xx_it.c.i
 .PHONY : Core/Src/stm32f4xx_it.c.i
 
 Core/Src/stm32f4xx_it.s: Core/Src/stm32f4xx_it.c.s
@@ -390,7 +390,7 @@ Core/Src/stm32f4xx_it.s: Core/Src/stm32f4xx_it.c.s
 
 # target to generate assembly for a file
 Core/Src/stm32f4xx_it.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/stm32f4xx_it.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/stm32f4xx_it.c.s
 .PHONY : Core/Src/stm32f4xx_it.c.s
 
 Core/Src/syscalls.obj: Core/Src/syscalls.c.obj
@@ -398,7 +398,7 @@ Core/Src/syscalls.obj: Core/Src/syscalls.c.obj
 
 # target to build an object file
 Core/Src/syscalls.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/syscalls.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/syscalls.c.obj
 .PHONY : Core/Src/syscalls.c.obj
 
 Core/Src/syscalls.i: Core/Src/syscalls.c.i
@@ -406,7 +406,7 @@ Core/Src/syscalls.i: Core/Src/syscalls.c.i
 
 # target to preprocess a source file
 Core/Src/syscalls.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/syscalls.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/syscalls.c.i
 .PHONY : Core/Src/syscalls.c.i
 
 Core/Src/syscalls.s: Core/Src/syscalls.c.s
@@ -414,7 +414,7 @@ Core/Src/syscalls.s: Core/Src/syscalls.c.s
 
 # target to generate assembly for a file
 Core/Src/syscalls.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/syscalls.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/syscalls.c.s
 .PHONY : Core/Src/syscalls.c.s
 
 Core/Src/sysmem.obj: Core/Src/sysmem.c.obj
@@ -422,7 +422,7 @@ Core/Src/sysmem.obj: Core/Src/sysmem.c.obj
 
 # target to build an object file
 Core/Src/sysmem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/sysmem.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/sysmem.c.obj
 .PHONY : Core/Src/sysmem.c.obj
 
 Core/Src/sysmem.i: Core/Src/sysmem.c.i
@@ -430,7 +430,7 @@ Core/Src/sysmem.i: Core/Src/sysmem.c.i
 
 # target to preprocess a source file
 Core/Src/sysmem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/sysmem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/sysmem.c.i
 .PHONY : Core/Src/sysmem.c.i
 
 Core/Src/sysmem.s: Core/Src/sysmem.c.s
@@ -438,7 +438,7 @@ Core/Src/sysmem.s: Core/Src/sysmem.c.s
 
 # target to generate assembly for a file
 Core/Src/sysmem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/sysmem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/sysmem.c.s
 .PHONY : Core/Src/sysmem.c.s
 
 Core/Src/system_stm32f4xx.obj: Core/Src/system_stm32f4xx.c.obj
@@ -446,7 +446,7 @@ Core/Src/system_stm32f4xx.obj: Core/Src/system_stm32f4xx.c.obj
 
 # target to build an object file
 Core/Src/system_stm32f4xx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/system_stm32f4xx.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/system_stm32f4xx.c.obj
 .PHONY : Core/Src/system_stm32f4xx.c.obj
 
 Core/Src/system_stm32f4xx.i: Core/Src/system_stm32f4xx.c.i
@@ -454,7 +454,7 @@ Core/Src/system_stm32f4xx.i: Core/Src/system_stm32f4xx.c.i
 
 # target to preprocess a source file
 Core/Src/system_stm32f4xx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/system_stm32f4xx.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/system_stm32f4xx.c.i
 .PHONY : Core/Src/system_stm32f4xx.c.i
 
 Core/Src/system_stm32f4xx.s: Core/Src/system_stm32f4xx.c.s
@@ -462,7 +462,7 @@ Core/Src/system_stm32f4xx.s: Core/Src/system_stm32f4xx.c.s
 
 # target to generate assembly for a file
 Core/Src/system_stm32f4xx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Core/Src/system_stm32f4xx.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Core/Src/system_stm32f4xx.c.s
 .PHONY : Core/Src/system_stm32f4xx.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
@@ -470,7 +470,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
@@ -478,7 +478,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i: Drivers/STM32F4xx_HAL_Driver/S
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
@@ -486,7 +486,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s: Drivers/STM32F4xx_HAL_Driver/S
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
@@ -494,7 +494,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
@@ -502,7 +502,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
@@ -510,7 +510,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
@@ -518,7 +518,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
@@ -526,7 +526,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
@@ -534,7 +534,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
@@ -542,7 +542,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
@@ -550,7 +550,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
@@ -558,7 +558,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
@@ -566,7 +566,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
@@ -574,7 +574,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
@@ -582,7 +582,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
@@ -590,7 +590,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
@@ -598,7 +598,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
@@ -606,7 +606,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
@@ -614,7 +614,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
@@ -622,7 +622,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
@@ -630,7 +630,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
@@ -638,7 +638,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj: Drivers/STM32F4xx_HAL_D
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
@@ -646,7 +646,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i: Drivers/STM32F4xx_HAL_Dri
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
@@ -654,7 +654,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s: Drivers/STM32F4xx_HAL_Dri
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
@@ -662,7 +662,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj: Drivers/STM32F4xx_HAL_
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
@@ -670,7 +670,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i: Drivers/STM32F4xx_HAL_Dr
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
@@ -678,7 +678,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s: Drivers/STM32F4xx_HAL_Dr
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
@@ -686,7 +686,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj: Drivers/STM32F4xx_H
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
@@ -694,7 +694,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i: Drivers/STM32F4xx_HAL
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
@@ -702,7 +702,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s: Drivers/STM32F4xx_HAL
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
@@ -710,7 +710,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj: Drivers/STM32F
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
@@ -718,7 +718,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i: Drivers/STM32F4x
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
@@ -726,7 +726,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s: Drivers/STM32F4x
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
@@ -734,7 +734,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj: Drivers/STM32F4xx_HAL_D
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
@@ -742,7 +742,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i: Drivers/STM32F4xx_HAL_Dri
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
@@ -750,7 +750,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: Drivers/STM32F4xx_HAL_Dri
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
@@ -758,7 +758,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
@@ -766,7 +766,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
@@ -774,7 +774,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
@@ -782,7 +782,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
@@ -790,7 +790,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
@@ -798,7 +798,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
@@ -806,7 +806,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
@@ -814,7 +814,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
@@ -822,7 +822,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
@@ -830,7 +830,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
@@ -838,7 +838,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
@@ -846,7 +846,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
@@ -854,7 +854,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
@@ -862,7 +862,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
@@ -870,7 +870,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
@@ -878,7 +878,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
@@ -886,7 +886,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
@@ -894,7 +894,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj
@@ -902,7 +902,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i
@@ -910,7 +910,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s
@@ -918,7 +918,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj
@@ -926,7 +926,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i
@@ -934,7 +934,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s
@@ -942,7 +942,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
@@ -950,7 +950,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.obj: Drivers/STM32F4xx_HAL_Dri
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
@@ -958,7 +958,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.i: Drivers/STM32F4xx_HAL_Drive
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
@@ -966,7 +966,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.s: Drivers/STM32F4xx_HAL_Drive
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
@@ -974,7 +974,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
@@ -982,7 +982,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
@@ -990,7 +990,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
@@ -998,7 +998,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
@@ -1006,7 +1006,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
@@ -1014,7 +1014,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
@@ -1022,7 +1022,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj: Drivers/STM32F4xx_HAL_D
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
@@ -1030,7 +1030,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i: Drivers/STM32F4xx_HAL_Dri
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
@@ -1038,7 +1038,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: Drivers/STM32F4xx_HAL_Dri
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
@@ -1046,7 +1046,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.obj: Drivers/STM32F4xx_HAL_Dri
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i
@@ -1054,7 +1054,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.i: Drivers/STM32F4xx_HAL_Drive
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
@@ -1062,7 +1062,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.s: Drivers/STM32F4xx_HAL_Drive
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
@@ -1070,7 +1070,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj: Drivers/STM32F4xx_HAL_D
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
@@ -1078,7 +1078,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i: Drivers/STM32F4xx_HAL_Dri
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
@@ -1086,7 +1086,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s: Drivers/STM32F4xx_HAL_Dri
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
 
 FATFS/App/fatfs.obj: FATFS/App/fatfs.c.obj
@@ -1094,7 +1094,7 @@ FATFS/App/fatfs.obj: FATFS/App/fatfs.c.obj
 
 # target to build an object file
 FATFS/App/fatfs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/App/fatfs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/App/fatfs.c.obj
 .PHONY : FATFS/App/fatfs.c.obj
 
 FATFS/App/fatfs.i: FATFS/App/fatfs.c.i
@@ -1102,7 +1102,7 @@ FATFS/App/fatfs.i: FATFS/App/fatfs.c.i
 
 # target to preprocess a source file
 FATFS/App/fatfs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/App/fatfs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/App/fatfs.c.i
 .PHONY : FATFS/App/fatfs.c.i
 
 FATFS/App/fatfs.s: FATFS/App/fatfs.c.s
@@ -1110,7 +1110,7 @@ FATFS/App/fatfs.s: FATFS/App/fatfs.c.s
 
 # target to generate assembly for a file
 FATFS/App/fatfs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/App/fatfs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/App/fatfs.c.s
 .PHONY : FATFS/App/fatfs.c.s
 
 FATFS/Target/bsp_driver_sd.obj: FATFS/Target/bsp_driver_sd.c.obj
@@ -1118,7 +1118,7 @@ FATFS/Target/bsp_driver_sd.obj: FATFS/Target/bsp_driver_sd.c.obj
 
 # target to build an object file
 FATFS/Target/bsp_driver_sd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/Target/bsp_driver_sd.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/Target/bsp_driver_sd.c.obj
 .PHONY : FATFS/Target/bsp_driver_sd.c.obj
 
 FATFS/Target/bsp_driver_sd.i: FATFS/Target/bsp_driver_sd.c.i
@@ -1126,7 +1126,7 @@ FATFS/Target/bsp_driver_sd.i: FATFS/Target/bsp_driver_sd.c.i
 
 # target to preprocess a source file
 FATFS/Target/bsp_driver_sd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/Target/bsp_driver_sd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/Target/bsp_driver_sd.c.i
 .PHONY : FATFS/Target/bsp_driver_sd.c.i
 
 FATFS/Target/bsp_driver_sd.s: FATFS/Target/bsp_driver_sd.c.s
@@ -1134,7 +1134,7 @@ FATFS/Target/bsp_driver_sd.s: FATFS/Target/bsp_driver_sd.c.s
 
 # target to generate assembly for a file
 FATFS/Target/bsp_driver_sd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/Target/bsp_driver_sd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/Target/bsp_driver_sd.c.s
 .PHONY : FATFS/Target/bsp_driver_sd.c.s
 
 FATFS/Target/fatfs_platform.obj: FATFS/Target/fatfs_platform.c.obj
@@ -1142,7 +1142,7 @@ FATFS/Target/fatfs_platform.obj: FATFS/Target/fatfs_platform.c.obj
 
 # target to build an object file
 FATFS/Target/fatfs_platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/Target/fatfs_platform.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/Target/fatfs_platform.c.obj
 .PHONY : FATFS/Target/fatfs_platform.c.obj
 
 FATFS/Target/fatfs_platform.i: FATFS/Target/fatfs_platform.c.i
@@ -1150,7 +1150,7 @@ FATFS/Target/fatfs_platform.i: FATFS/Target/fatfs_platform.c.i
 
 # target to preprocess a source file
 FATFS/Target/fatfs_platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/Target/fatfs_platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/Target/fatfs_platform.c.i
 .PHONY : FATFS/Target/fatfs_platform.c.i
 
 FATFS/Target/fatfs_platform.s: FATFS/Target/fatfs_platform.c.s
@@ -1158,7 +1158,7 @@ FATFS/Target/fatfs_platform.s: FATFS/Target/fatfs_platform.c.s
 
 # target to generate assembly for a file
 FATFS/Target/fatfs_platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/Target/fatfs_platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/Target/fatfs_platform.c.s
 .PHONY : FATFS/Target/fatfs_platform.c.s
 
 FATFS/Target/sd_diskio.obj: FATFS/Target/sd_diskio.c.obj
@@ -1166,7 +1166,7 @@ FATFS/Target/sd_diskio.obj: FATFS/Target/sd_diskio.c.obj
 
 # target to build an object file
 FATFS/Target/sd_diskio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/Target/sd_diskio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/Target/sd_diskio.c.obj
 .PHONY : FATFS/Target/sd_diskio.c.obj
 
 FATFS/Target/sd_diskio.i: FATFS/Target/sd_diskio.c.i
@@ -1174,7 +1174,7 @@ FATFS/Target/sd_diskio.i: FATFS/Target/sd_diskio.c.i
 
 # target to preprocess a source file
 FATFS/Target/sd_diskio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/Target/sd_diskio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/Target/sd_diskio.c.i
 .PHONY : FATFS/Target/sd_diskio.c.i
 
 FATFS/Target/sd_diskio.s: FATFS/Target/sd_diskio.c.s
@@ -1182,7 +1182,7 @@ FATFS/Target/sd_diskio.s: FATFS/Target/sd_diskio.c.s
 
 # target to generate assembly for a file
 FATFS/Target/sd_diskio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/FATFS/Target/sd_diskio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/FATFS/Target/sd_diskio.c.s
 .PHONY : FATFS/Target/sd_diskio.c.s
 
 Middlewares/Third_Party/FatFs/src/diskio.obj: Middlewares/Third_Party/FatFs/src/diskio.c.obj
@@ -1190,7 +1190,7 @@ Middlewares/Third_Party/FatFs/src/diskio.obj: Middlewares/Third_Party/FatFs/src/
 
 # target to build an object file
 Middlewares/Third_Party/FatFs/src/diskio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.obj
 
 Middlewares/Third_Party/FatFs/src/diskio.i: Middlewares/Third_Party/FatFs/src/diskio.c.i
@@ -1198,7 +1198,7 @@ Middlewares/Third_Party/FatFs/src/diskio.i: Middlewares/Third_Party/FatFs/src/di
 
 # target to preprocess a source file
 Middlewares/Third_Party/FatFs/src/diskio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i
 .PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.i
 
 Middlewares/Third_Party/FatFs/src/diskio.s: Middlewares/Third_Party/FatFs/src/diskio.c.s
@@ -1206,7 +1206,7 @@ Middlewares/Third_Party/FatFs/src/diskio.s: Middlewares/Third_Party/FatFs/src/di
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FatFs/src/diskio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s
 .PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.s
 
 Middlewares/Third_Party/FatFs/src/ff.obj: Middlewares/Third_Party/FatFs/src/ff.c.obj
@@ -1214,7 +1214,7 @@ Middlewares/Third_Party/FatFs/src/ff.obj: Middlewares/Third_Party/FatFs/src/ff.c
 
 # target to build an object file
 Middlewares/Third_Party/FatFs/src/ff.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/ff.c.obj
 
 Middlewares/Third_Party/FatFs/src/ff.i: Middlewares/Third_Party/FatFs/src/ff.c.i
@@ -1222,7 +1222,7 @@ Middlewares/Third_Party/FatFs/src/ff.i: Middlewares/Third_Party/FatFs/src/ff.c.i
 
 # target to preprocess a source file
 Middlewares/Third_Party/FatFs/src/ff.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/ff.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/ff.c.i
 .PHONY : Middlewares/Third_Party/FatFs/src/ff.c.i
 
 Middlewares/Third_Party/FatFs/src/ff.s: Middlewares/Third_Party/FatFs/src/ff.c.s
@@ -1230,7 +1230,7 @@ Middlewares/Third_Party/FatFs/src/ff.s: Middlewares/Third_Party/FatFs/src/ff.c.s
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FatFs/src/ff.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/ff.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/ff.c.s
 .PHONY : Middlewares/Third_Party/FatFs/src/ff.c.s
 
 Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
@@ -1238,7 +1238,7 @@ Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj: Middlewares/Third_Party/FatFs/
 
 # target to build an object file
 Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
 
 Middlewares/Third_Party/FatFs/src/ff_gen_drv.i: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
@@ -1246,7 +1246,7 @@ Middlewares/Third_Party/FatFs/src/ff_gen_drv.i: Middlewares/Third_Party/FatFs/sr
 
 # target to preprocess a source file
 Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
 .PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
 
 Middlewares/Third_Party/FatFs/src/ff_gen_drv.s: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
@@ -1254,7 +1254,7 @@ Middlewares/Third_Party/FatFs/src/ff_gen_drv.s: Middlewares/Third_Party/FatFs/sr
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
 .PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
 
 Middlewares/Third_Party/FatFs/src/option/ccsbcs.obj: Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
@@ -1262,7 +1262,7 @@ Middlewares/Third_Party/FatFs/src/option/ccsbcs.obj: Middlewares/Third_Party/Fat
 
 # target to build an object file
 Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj
 
 Middlewares/Third_Party/FatFs/src/option/ccsbcs.i: Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i
@@ -1270,7 +1270,7 @@ Middlewares/Third_Party/FatFs/src/option/ccsbcs.i: Middlewares/Third_Party/FatFs
 
 # target to preprocess a source file
 Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i
 .PHONY : Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i
 
 Middlewares/Third_Party/FatFs/src/option/ccsbcs.s: Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s
@@ -1278,7 +1278,7 @@ Middlewares/Third_Party/FatFs/src/option/ccsbcs.s: Middlewares/Third_Party/FatFs
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s
 .PHONY : Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s
 
 Middlewares/Third_Party/FatFs/src/option/syscall.obj: Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
@@ -1286,7 +1286,7 @@ Middlewares/Third_Party/FatFs/src/option/syscall.obj: Middlewares/Third_Party/Fa
 
 # target to build an object file
 Middlewares/Third_Party/FatFs/src/option/syscall.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
 
 Middlewares/Third_Party/FatFs/src/option/syscall.i: Middlewares/Third_Party/FatFs/src/option/syscall.c.i
@@ -1294,7 +1294,7 @@ Middlewares/Third_Party/FatFs/src/option/syscall.i: Middlewares/Third_Party/FatF
 
 # target to preprocess a source file
 Middlewares/Third_Party/FatFs/src/option/syscall.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i
 .PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.i
 
 Middlewares/Third_Party/FatFs/src/option/syscall.s: Middlewares/Third_Party/FatFs/src/option/syscall.c.s
@@ -1302,7 +1302,7 @@ Middlewares/Third_Party/FatFs/src/option/syscall.s: Middlewares/Third_Party/FatF
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FatFs/src/option/syscall.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s
 .PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
@@ -1310,7 +1310,7 @@ Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Middlewares/Thi
 
 # target to build an object file
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
 
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
@@ -1318,7 +1318,7 @@ Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i: Middlewares/Third
 
 # target to preprocess a source file
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
 
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
@@ -1326,7 +1326,7 @@ Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s: Middlewares/Third
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/croutine.obj: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
@@ -1334,7 +1334,7 @@ Middlewares/Third_Party/FreeRTOS/Source/croutine.obj: Middlewares/Third_Party/Fr
 
 # target to build an object file
 Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
 
 Middlewares/Third_Party/FreeRTOS/Source/croutine.i: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
@@ -1342,7 +1342,7 @@ Middlewares/Third_Party/FreeRTOS/Source/croutine.i: Middlewares/Third_Party/Free
 
 # target to preprocess a source file
 Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
 
 Middlewares/Third_Party/FreeRTOS/Source/croutine.s: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
@@ -1350,7 +1350,7 @@ Middlewares/Third_Party/FreeRTOS/Source/croutine.s: Middlewares/Third_Party/Free
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
@@ -1358,7 +1358,7 @@ Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj: Middlewares/Third_Part
 
 # target to build an object file
 Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
 
 Middlewares/Third_Party/FreeRTOS/Source/event_groups.i: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
@@ -1366,7 +1366,7 @@ Middlewares/Third_Party/FreeRTOS/Source/event_groups.i: Middlewares/Third_Party/
 
 # target to preprocess a source file
 Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
 
 Middlewares/Third_Party/FreeRTOS/Source/event_groups.s: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
@@ -1374,7 +1374,7 @@ Middlewares/Third_Party/FreeRTOS/Source/event_groups.s: Middlewares/Third_Party/
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/list.obj: Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
@@ -1382,7 +1382,7 @@ Middlewares/Third_Party/FreeRTOS/Source/list.obj: Middlewares/Third_Party/FreeRT
 
 # target to build an object file
 Middlewares/Third_Party/FreeRTOS/Source/list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
 
 Middlewares/Third_Party/FreeRTOS/Source/list.i: Middlewares/Third_Party/FreeRTOS/Source/list.c.i
@@ -1390,7 +1390,7 @@ Middlewares/Third_Party/FreeRTOS/Source/list.i: Middlewares/Third_Party/FreeRTOS
 
 # target to preprocess a source file
 Middlewares/Third_Party/FreeRTOS/Source/list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.i
 
 Middlewares/Third_Party/FreeRTOS/Source/list.s: Middlewares/Third_Party/FreeRTOS/Source/list.c.s
@@ -1398,7 +1398,7 @@ Middlewares/Third_Party/FreeRTOS/Source/list.s: Middlewares/Third_Party/FreeRTOS
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FreeRTOS/Source/list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
@@ -1406,7 +1406,7 @@ Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: Middlewa
 
 # target to build an object file
 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
 
 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
@@ -1414,7 +1414,7 @@ Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: Middleware
 
 # target to preprocess a source file
 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
 
 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
@@ -1422,7 +1422,7 @@ Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: Middleware
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
@@ -1430,7 +1430,7 @@ Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj: Middlewares
 
 # target to build an object file
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
 
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
@@ -1438,7 +1438,7 @@ Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i: Middlewares/T
 
 # target to preprocess a source file
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
 
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
@@ -1446,7 +1446,7 @@ Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s: Middlewares/T
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/queue.obj: Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
@@ -1454,7 +1454,7 @@ Middlewares/Third_Party/FreeRTOS/Source/queue.obj: Middlewares/Third_Party/FreeR
 
 # target to build an object file
 Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
 
 Middlewares/Third_Party/FreeRTOS/Source/queue.i: Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
@@ -1462,7 +1462,7 @@ Middlewares/Third_Party/FreeRTOS/Source/queue.i: Middlewares/Third_Party/FreeRTO
 
 # target to preprocess a source file
 Middlewares/Third_Party/FreeRTOS/Source/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
 
 Middlewares/Third_Party/FreeRTOS/Source/queue.s: Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
@@ -1470,7 +1470,7 @@ Middlewares/Third_Party/FreeRTOS/Source/queue.s: Middlewares/Third_Party/FreeRTO
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FreeRTOS/Source/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
@@ -1478,7 +1478,7 @@ Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj: Middlewares/Third_Par
 
 # target to build an object file
 Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 
 Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
@@ -1486,7 +1486,7 @@ Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i: Middlewares/Third_Party
 
 # target to preprocess a source file
 Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
 
 Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
@@ -1494,7 +1494,7 @@ Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s: Middlewares/Third_Party
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/tasks.obj: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
@@ -1502,7 +1502,7 @@ Middlewares/Third_Party/FreeRTOS/Source/tasks.obj: Middlewares/Third_Party/FreeR
 
 # target to build an object file
 Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 
 Middlewares/Third_Party/FreeRTOS/Source/tasks.i: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
@@ -1510,7 +1510,7 @@ Middlewares/Third_Party/FreeRTOS/Source/tasks.i: Middlewares/Third_Party/FreeRTO
 
 # target to preprocess a source file
 Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
 
 Middlewares/Third_Party/FreeRTOS/Source/tasks.s: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
@@ -1518,7 +1518,7 @@ Middlewares/Third_Party/FreeRTOS/Source/tasks.s: Middlewares/Third_Party/FreeRTO
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
 
 Middlewares/Third_Party/FreeRTOS/Source/timers.obj: Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
@@ -1526,7 +1526,7 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.obj: Middlewares/Third_Party/Free
 
 # target to build an object file
 Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 
 Middlewares/Third_Party/FreeRTOS/Source/timers.i: Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
@@ -1534,7 +1534,7 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.i: Middlewares/Third_Party/FreeRT
 
 # target to preprocess a source file
 Middlewares/Third_Party/FreeRTOS/Source/timers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
 
 Middlewares/Third_Party/FreeRTOS/Source/timers.s: Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
@@ -1542,7 +1542,7 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.s: Middlewares/Third_Party/FreeRT
 
 # target to generate assembly for a file
 Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
 startup_stm32f446xx.obj: startup_stm32f446xx.s.obj
@@ -1550,7 +1550,7 @@ startup_stm32f446xx.obj: startup_stm32f446xx.s.obj
 
 # target to build an object file
 startup_stm32f446xx.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Power_Logging_Module_25.dir/build.make CMakeFiles/Power_Logging_Module_25.dir/startup_stm32f446xx.s.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/power_logging_module_25_v2.dir/build.make CMakeFiles/power_logging_module_25_v2.dir/startup_stm32f446xx.s.obj
 .PHONY : startup_stm32f446xx.s.obj
 
 # Help Target
@@ -1561,7 +1561,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Power_Logging_Module_25"
+	@echo "... power_logging_module_25_v2"
 	@echo "... Core/Src/freertos.obj"
 	@echo "... Core/Src/freertos.i"
 	@echo "... Core/Src/freertos.s"
